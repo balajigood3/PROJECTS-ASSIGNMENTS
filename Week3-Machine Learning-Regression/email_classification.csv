@@ -1,0 +1,16 @@
+EmailID,Message,Department
+1,Where is my order?,Shipping
+2,Product quality is bad,Quality
+3,Shipment delayed,Shipping
+4,Payment issue,Finance
+5,Refund not received,Finance
+6,Order not delivered,Shipping
+7,Wrong product received,Quality
+8,Need invoice copy,Finance
+9,Cancel my order,Shipping
+10,Tracking number not working,Shipping
+11,Payment failed,Finance
+12,Request refund,Finance
+13,Delivery was late,Shipping
+14,Damaged product received,Quality
+15,Shipping address change request,Shipping
