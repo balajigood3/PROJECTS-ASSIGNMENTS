@@ -1,0 +1,31 @@
+Kindly check these steps before installing the sotware
+
+1.OS: Windows 10
+2.Internal RAM: 4GB(Minimum)
+3.Bit system: 32 or 64
+
+To check these Right click this PC-->Properties 
+
+
+
+Anaconda Link
+
+For 64 bit
+
+https://repo.anaconda.com/archive/Anaconda3-2019.10-Windows-x86_64.exe
+
+For 32 bit
+
+https://repo.anaconda.com/archive/Anaconda3-2019.10-Windows-x86.exe
+
+Open Anaconda prompt from windows
+
+Step1: conda install python=3.7.6
+
+Step2: follow below library
+
+pip install numpy==1.17.4
+pip install pandas==0.25.3
+pip install scikit-learn==0.21.3
+pip install matplotlib==3.1.1
+pip install django==3.0.2
