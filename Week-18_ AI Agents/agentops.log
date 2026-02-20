@@ -1,0 +1,2 @@
+2026-02-16 21:19:36,174 - INFO - [ConcurrentFuturesInstrumentor] Successfully instrumented concurrent.futures.ThreadPoolExecutor
+2026-02-16 21:20:34,191 - ERROR - [agentops.InternalSpanProcessor] Error uploading logfile: Upload failed: 401
