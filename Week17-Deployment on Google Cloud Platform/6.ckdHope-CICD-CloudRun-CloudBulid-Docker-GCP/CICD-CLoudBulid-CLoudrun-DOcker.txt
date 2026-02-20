@@ -1,0 +1,46 @@
+Install Git - Download from Internet
+
+Check correct installation
+Issue this command in the command Prompt
+git --version
+
+Open Command Prompt
+
+git config --global user.name RamishaRaniK
+git config --global user.email ramisharanik@gmail.com
+
+
+Open Git bash
+
+ssh-agent -s
+ssh-keygen -t rsa -b 4096 -C ramisharanik@gmail
+ssh-add ~/.ssh/id_rsa( if Error) 
+chmod 600 ~/.ssh/id_rsa
+clip < ~/.ssh/id_rsa.pub
+
+
+
+Go to Gitgub-->Settings--> SSH keygen
+
+Open command Prompt 
+ssh -T git@github.com
+Give "yes"
+final Message
+Hi username! You've successfully authenticated, but GitHub does not provide shell access.
+
+Go to GitHub
+
+create New Repository
+git clone git@github.com:RamishaRaniK/ckdcicd.git -->(Automatically it creates folder in the working directory system)
+
+cd ckdcicd
+
+copy all the files and paste it to the created directory
+
+git add .
+git commit -m "Initial commit"
+git push origin main
+
+git add cloudbuild.yaml
+
+git commit -m "add default option"
